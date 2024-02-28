@@ -79,8 +79,8 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| O aplicativo deve conter uma ficha para cadastro com os dados pessoais, o tipo de cabelo e as preferências | ALTA | 
-|RF-002| Permitir que os clientes cancelem ou alterem seus agendamentos até 24 horas antes do horário marcado.s   | ALTA |
+|RF-001| O aplicativo deve conter uma ficha para cadastro com os dados pessoais, o tipo de cabelo e preferências | ALTA | 
+|RF-002| Permitir que os clientes cancelem ou alterem seus agendamentos até 24 horas antes do horário marcado   | ALTA |
 |RF-003| Cadastro do estabelecimento estético | ALTA |
 |RF-004|  Apresentar imagens de cortes de cabelo | BAIXA | 
 
