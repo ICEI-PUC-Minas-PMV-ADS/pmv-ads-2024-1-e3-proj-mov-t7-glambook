@@ -2,19 +2,33 @@
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+![empreendedor](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t7-glambook/assets/124836743/aee03f07-7db8-45ec-94b4-2c4317e2ae44)
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
+Reinaldo, um empreendedor de 35 anos, é proprietário de um salão de beleza em Belo Horizonte. Buscando aprimorar seu negócio, ele está interessado em automatizar o agendamento de seus serviços. Atualmente, seu salão utiliza o método tradicional de agendamento por telefone, o que tem se mostrado desafiador no cotidiano da equipe. Interrupções constantes para atender ligações tornam cada atendimento mais demorado, prejudicando o fluxo de clientes.
 
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
+Consciente da importância de otimizar seu tempo e recursos, Paulo está considerando a adoção de um aplicativo de agendamento online. Essa solução não apenas simplificaria a rotina de seus fucionários, mas também eliminaria a necessidade de contratar um atendente adicional, o que é especialmente relevante dado o recente lançamento de sua barbearia e a prioridade em minimizar custos.
+
+Ao investir em um sistema de agendamento online, Paulo almeja não apenas melhorar a eficiência de seu negócio, mas também oferecer uma experiência mais conveniente para seus clientes, possibilitando que agendem seus horários de forma rápida e simples, sem depender do horário de funcionamento da barbearia.
+
+![arquitetaa](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t7-glambook/assets/124836743/4fcc62a3-62b1-49a3-a756-9477822459d4)
+
+
+Bárbara, uma arquiteta de 32 anos, administra seu próprio escritório e enfrenta uma agenda movimentada que exige sua presença constante em reuniões com clientes. Diante desse cenário agitado, ela não pode se dar ao luxo de passar tempo precioso tentando entrar em contato com salões de beleza, já que muitas vezes encontra seus telefones ocupados. Com uma lista de serviços essenciais, como corte de cabelo, hidratação, pintura, design de sobrancelhas e limpeza de pele, Bárbara também se vê obrigada a dividir seu tempo entre diversos salões, já que nenhum oferece todos os serviços que ela necessita.
+
+Diante dessa realidade, Bárbara está em busca de uma solução eficiente: um aplicativo que não apenas permita agendar facilmente seus compromissos nos salões, mas também forneça uma visão abrangente dos serviços disponíveis em cada estabelecimento, assim como os profissionais responsáveis por executá-los. Dessa forma, ela poderá gerenciar sua agenda com mais eficiência, economizando tempo e garantindo que suas necessidades de beleza sejam atendidas de forma conveniente e completa.
+
+![27 -Barbeiro-Profissional](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t7-glambook/assets/124836743/f8a77c54-27f5-4492-8633-aac9ec0e00e3)
+
+
+Paulo, um experiente barbeiro de 38 anos, atualmente desempenha suas habilidades em um salão localizado na Savassi. Desde o início de sua jornada neste estabelecimento, Paulo enfrenta um desafio recorrente: interrupções frequentes durante os atendimentos devido às constantes ligações de clientes em busca de agendamento de horários.
+
+Essa prática disruptiva não apenas resulta em atrasos nos serviços prestados aos clientes, mas também gera insatisfação entre aqueles que já estão sendo atendidos, uma vez que a atenção de Paulo é constantemente desviada. Diante desse cenário, Paulo reconhece a necessidade de modernizar o sistema de agendamentos.
+
+Ele acredita firmemente que substituir o método tradicional de agendamento por telefone por um aplicativo dedicado traria benefícios significativos. Não apenas simplificaria a rotina dos funcionários, mas também elevaria a satisfação dos clientes, permitindo uma experiência mais fluida e sem interrupções durante os atendimentos.
+
+Portanto, Paulo está convicto de que a implementação de um aplicativo de agendamentos seria uma solução eficaz para otimizar o funcionamento do salão e melhorar a experiência tanto para os clientes quanto para a equipe de profissionais.
+
+
 
 ## Histórias de Usuários
 
