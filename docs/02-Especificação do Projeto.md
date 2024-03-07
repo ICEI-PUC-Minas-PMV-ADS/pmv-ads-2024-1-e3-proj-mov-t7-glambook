@@ -2,7 +2,7 @@
 
 ## Personas
 
-![empreendedor](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t7-glambook/assets/124836743/aee03f07-7db8-45ec-94b4-2c4317e2ae44)
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t7-glambook/assets/124836743/aee03f07-7db8-45ec-94b4-2c4317e2ae44" width="400" heigth="400">
 
 Reinaldo, um empreendedor de 35 anos, é proprietário de um salão de beleza em Belo Horizonte. Buscando aprimorar seu negócio, ele está interessado em automatizar o agendamento de seus serviços. Atualmente, seu salão utiliza o método tradicional de agendamento por telefone, o que tem se mostrado desafiador no cotidiano da equipe. Interrupções constantes para atender ligações tornam cada atendimento mais demorado, prejudicando o fluxo de clientes.
 
@@ -10,14 +10,15 @@ Consciente da importância de otimizar seu tempo e recursos, Paulo está conside
 
 Ao investir em um sistema de agendamento online, Paulo almeja não apenas melhorar a eficiência de seu negócio, mas também oferecer uma experiência mais conveniente para seus clientes, possibilitando que agendem seus horários de forma rápida e simples, sem depender do horário de funcionamento da barbearia.
 
-![arquitetaa](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t7-glambook/assets/124836743/4fcc62a3-62b1-49a3-a756-9477822459d4)
+
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t7-glambook/assets/124836743/4fcc62a3-62b1-49a3-a756-9477822459d4" width="400" heigth="400">
 
 
 Bárbara, uma arquiteta de 32 anos, administra seu próprio escritório e enfrenta uma agenda movimentada que exige sua presença constante em reuniões com clientes. Diante desse cenário agitado, ela não pode se dar ao luxo de passar tempo precioso tentando entrar em contato com salões de beleza, já que muitas vezes encontra seus telefones ocupados. Com uma lista de serviços essenciais, como corte de cabelo, hidratação, pintura, design de sobrancelhas e limpeza de pele, Bárbara também se vê obrigada a dividir seu tempo entre diversos salões, já que nenhum oferece todos os serviços que ela necessita.
 
 Diante dessa realidade, Bárbara está em busca de uma solução eficiente: um aplicativo que não apenas permita agendar facilmente seus compromissos nos salões, mas também forneça uma visão abrangente dos serviços disponíveis em cada estabelecimento, assim como os profissionais responsáveis por executá-los. Dessa forma, ela poderá gerenciar sua agenda com mais eficiência, economizando tempo e garantindo que suas necessidades de beleza sejam atendidas de forma conveniente e completa.
 
-![27 -Barbeiro-Profissional](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t7-glambook/assets/124836743/f8a77c54-27f5-4492-8633-aac9ec0e00e3)
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t7-glambook/assets/124836743/f8a77c54-27f5-4492-8633-aac9ec0e00e3" width="400" heigth="400">
 
 
 Paulo, um experiente barbeiro de 38 anos, atualmente desempenha suas habilidades em um salão localizado na Savassi. Desde o início de sua jornada neste estabelecimento, Paulo enfrenta um desafio recorrente: interrupções frequentes durante os atendimentos devido às constantes ligações de clientes em busca de agendamento de horários.
@@ -72,12 +73,8 @@ Apresente aqui o nome e as oportunidades de melhorias para o processo 2. Em segu
 
 ## Indicadores de Desempenho
 
-Apresente aqui os principais indicadores de desempenho e algumas metas para o processo. Atenção: as informações necessárias para gerar os indicadores devem estar contempladas no diagrama de classe. Colocar no mínimo 5 indicadores. 
+Tendo em vista que, para a elaboração dos indicadores de desempenho, deve haver prévia elaboração do diagrama de classes, que somente deverá ser desenvolvido na 2ª etapa, optamos por apresentar esses indicadores quando da entrega da próxima etapa.
 
-Usar o seguinte modelo: 
-
-![Indicadores de Desempenho](img/02-indic-desemp.png)
-Obs.: todas as informações para gerar os indicadores devem estar no diagrama de classe a ser apresentado a posteriori. 
 
 ## Requisitos
 
@@ -140,9 +137,19 @@ A matriz deve contemplar todos os elementos relevantes que fazem parte do sistem
 
 O gerenciamento do tempo do projeto está sendo feito por meio do GitHub Projects, acessível no seguinte endereço: https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/834/views/1
 
+Print da tela que demonstra o gerenciamento:
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t7-glambook/assets/125296093/db12d752-d55f-4061-bd8f-c7fd882f9bc1)
+
+
+
 ## Gerenciamento de Equipe
 
 O gerenciamento da equipe do projeto está sendo feito por meio do GitHub Projects, acessível no seguinte endereço: https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/834/views/1
+
+Print da tela que demonstra o gerenciamento:
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t7-glambook/assets/125296093/8d590ea0-c6e9-4bea-b30e-af80adb089f9)
 
 ## Gestão de Orçamento
 
