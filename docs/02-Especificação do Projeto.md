@@ -73,7 +73,9 @@ Desenvolvimento de uma aplicação que permita o agendamento virtual de horário
 Limites:
 
 -Orçamento.
+
 -Equipe de apenas 6 pessas.
+
 -Limite de tempo de 6 meses para a conclusão do projeto.
 
 Propostas de melhorias:
