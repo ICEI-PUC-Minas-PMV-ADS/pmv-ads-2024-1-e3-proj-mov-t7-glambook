@@ -53,17 +53,40 @@ Apresente aqui as histórias de usuário que são relevantes para o projeto de s
 
 ### Análise da Situação Atual
 
-Apresente aqui os problemas existentes que viabilizam sua proposta. Apresente o modelo do sistema como ele funciona hoje. Caso sua proposta seja inovadora e não existam processos claramente definidos, apresente como as tarefas que o seu sistema pretende implementar são executadas atualmente, mesmo que não se utilize tecnologia computacional. 
+Problemas:
+
+-Agendamentos por telefone requerem interrupções frequentes no atendimento de clientes. Acarretando no atraso de serviços prestados e insatisfação da clientela.
+
+-Agendamentos por telefone podem requerer à contratação de uma atendente. Acarretando em custos adicionais para o proprietário do estabelecimento.
+
+-Clientes muitas vezes ficam insatisfeitos por não conseguirem entrar em contato com o salão devidos às linhas de telefone estarem ocupadas.
+
+-Clientes dependem de telefonemas e pesquisas para descobrir quais salçoes ofertam quais tipoes de serviço.
+
 
 ### Descrição Geral da Proposta
 
-Apresente aqui uma descrição da sua proposta abordando seus limites e suas ligações com as estratégias e objetivos do negócio. Apresente aqui as oportunidades de melhorias.
+Solução:
 
-### Processo 1 – NOME DO PROCESSO
+Desenvolvimento de uma aplicação que permita o agendamento virtual de horários em salões cadastrados. Possibilita-se a visualização dos serviços ofertados pelos estabelecimentos e sua proximidade. 
 
-Apresente aqui o nome e as oportunidades de melhorias para o processo 1. Em seguida, apresente o modelo do processo 1, descrito no padrão BPMN. 
+Limites:
 
-![Processo 1](img/02-bpmn-proc1.png)
+-Orçamento.
+-Equipe de apenas 6 pessas.
+-Limite de tempo de 6 meses para a conclusão do projeto.
+
+Propostas de melhorias:
+
+-Utilização de metodologia ágil.
+-Utilização de recursos gratuitos para o desenvolvimento da aplicação.
+-Definição de papéis e funções da equipe: Scrum Master; Product Owner; Desenvolvedores.
+
+
+### Processo 1 – Processo de agendamento.
+
+![Fluxo](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t7-glambook/assets/124836743/5f8f414d-f72e-4160-8de2-792391e81a48)
+
 
 ### Processo 2 – NOME DO PROCESSO
 
