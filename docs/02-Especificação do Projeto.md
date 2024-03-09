@@ -111,11 +111,11 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |------|-----------------------------------------|----|
 |RF-001| O aplicativo deve conter uma ficha para cadastro com os dados pessoais | ALTA | 
 |RF-002| A aplicação deve conter uma página de cadastro para o estabelecimento  |ALTA |
-|RF-002| A aplicação deve incluir uma página de login para usuários cadastrados |ALTA|
-|er-004| O aplicativo deve conter uma página de login para o estabelecimento | ALTA |
-|RF-004| Permitir que os clientes cancelem ou alterem seus agendamentos até 24 horas antes do horário marcado | MÉDIA |
-|RF-005| Permitir que o estabelecimento possa visualizar e controlar o agendamento | MÉDIA |
-|RF-006| Apresentar imagens ou especificações do corte de cabelo | BAIXA | 
+|RF-003| A aplicação deve incluir uma página de login para usuários cadastrados | ALTA |
+|RF-004| O aplicativo deve conter uma página de login para o estabelecimento | ALTA |
+|RF-005| Permitir que os clientes cancelem ou alterem seus agendamentos até 24 horas antes do horário marcado | MÉDIA |
+|RF-006| Permitir que o estabelecimento possa visualizar e controlar o agendamento | MÉDIA |
+|RF-007| Apresentar imagens ou especificações do corte de cabelo | BAIXA | 
 
 ### Requisitos não Funcionais
 
