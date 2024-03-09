@@ -37,10 +37,20 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+|Administrador - Reinaldo| Automatizar um sistema de agendamentos de serviços | Diminuir as interrupções  constantes da equipe para atender o telefone  |
+|Administrador - Reinaldo | Implementar um aplicativo móvel para agendamentos online | Elevar a satisfação e praticidade para os clientes, e não ser preciso contratar outro funcionário para a função de agendamento |
 
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
+|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
+|--------------------|------------------------------------|----------------------------------------|
+|Usuária - Bárbara| Encontrar um salão, onde é disponibilizado todos serviços de beleza, com horário fácilmente marcado| Não perder tempo com telefones ocupados e diversas marcações em locais diferentes|
+|Usuária - Bárbara| Agendar diversos serviços de uma só vez| Para gerenciar sua agenda com maior eficiência|
+
+|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
+|--------------------|------------------------------------|----------------------------------------|
+|Administrador - Paulo| Modernizar o sistema de agendamento | Para diminuir as interrupções frequentes nos atendimentos, devido as constantes ligaçoes |
+|Administrador - Paulo| Implementar um aplicativo móvel para agendamentos online | Para melhorar a experiência e a dedicação ao cliente |
+
+
 
 > **Links Úteis**:
 > - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
