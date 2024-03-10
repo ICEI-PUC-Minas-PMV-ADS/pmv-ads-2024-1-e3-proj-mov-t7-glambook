@@ -152,7 +152,8 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 ## Diagrama de Casos de Uso
 
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t7-glambook/assets/123324372/721afb5f-8199-42bc-8177-d7a7cd7aa190)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t7-glambook/assets/123324372/003d4c24-bbfd-475f-a0ac-1c37c0324fba)
+
 
 
 # Matriz de Rastreabilidade
