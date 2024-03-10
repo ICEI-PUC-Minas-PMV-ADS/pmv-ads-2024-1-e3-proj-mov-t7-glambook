@@ -186,5 +186,6 @@ Print da tela que demonstra o gerenciamento:
 
 O processo de determinar o orçamento do projeto é uma tarefa que depende, além dos produtos (saídas) dos processos anteriores do gerenciamento de custos, também de produtos oferecidos por outros processos de gerenciamento, como o escopo e o tempo.
 
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t7-glambook/assets/123324372/a15a7d74-9c6e-4561-858e-ee31645bfb7e)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t7-glambook/assets/123324372/7f266b54-e85b-46cc-a6cf-0ea38fd66a90)
+
 
