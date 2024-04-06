@@ -21,17 +21,17 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Diagramas d
 > - [Fluxograma online: seis sites para fazer gráfico sem instalar nada | Produtividade | TechTudo](https://www.techtudo.com.br/listas/2019/03/fluxograma-online-seis-sites-para-fazer-grafico-sem-instalar-nada.ghtml)
 
 ## Wireframes
+TELA INICIAL, LOGIN E CADASTRO: 
+![Captura de tela 2024-04-06 175157](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t7-glambook/assets/128649539/4508f221-6ed1-4aea-b856-d85385ca5980)
 
-[ EM DESENVOLVIMENTO ]
 
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t7-glambook/assets/128649539/d8b79096-4dc7-49cc-a572-2740fbc7714a)
+TELA DE LOGIN PARA O USUÁRIO E AGENDAMENTO:
+![Captura de tela 2024-04-06 175705](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t7-glambook/assets/128649539/01b58c85-1a12-4904-a808-3f7867cd2799)
+
+
+TELA DE LOGIN PARA O ESTABELECIMENTO E CONTROLE DE AGENDAMENTO:
+![Captura de tela 2024-04-06 175734](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t7-glambook/assets/128649539/8147884a-c62e-4f0f-992c-0227c53bc2db)
+
+
 
  
-> **Links Úteis**:
-> - [Protótipos vs Wireframes](https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/)
-> - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
-> - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
-> - [Figma](https://www.figma.com/)
-> - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
-> - [Axure](https://www.axure.com/edu) (Licença Educacional)
-> - [InvisionApp](https://www.invisionapp.com/) (Licença Educacional)
