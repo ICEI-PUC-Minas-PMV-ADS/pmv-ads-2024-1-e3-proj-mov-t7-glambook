@@ -11,7 +11,6 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 ## Integrantes
 
 * Arthur Zebral de Castro Koehne
-* Carolina Mascarenhas Gontijo Couto
 * Carolina Morais Rabelo
 * Laila Suelen Martins Costa
 * Lídia Fonseca de Carvalho
