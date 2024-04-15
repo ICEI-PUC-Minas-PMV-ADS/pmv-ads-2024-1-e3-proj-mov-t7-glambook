@@ -34,7 +34,7 @@ Entregar um arquivo banco.sql contendo os scripts de criação das tabelas do ba
 - Ferramenta Wiregrames: Figma.
 - Ferramenta de Comunicação: Microsoft Teams e Meta Whatsapp.
 - Ferramenta de Gestão de Projeto: Github Projects.
-- Sistema DE Gerenciamento de Banco de Dados:
+- Sistema de Gerenciamento de Banco de Dados:
 
 Apresente também uma figura explicando como as tecnologias estão relacionadas ou como uma interação do usuário com o sistema vai ser conduzida, por onde ela passa até retornar uma resposta ao usuário.
 
