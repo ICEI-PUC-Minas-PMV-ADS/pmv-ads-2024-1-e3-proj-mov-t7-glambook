@@ -28,13 +28,13 @@ Entregar um arquivo banco.sql contendo os scripts de criação das tabelas do ba
 
 ## Tecnologias Utilizadas
 
--LINGUAGEM: Java Script.
--BIBLIOTECA: React Native.
--IDE: Visual Studio Code.
--FERRAMENTAS WIREFRAMES: Figma.
--FERRAMENTAS DE COMUNICAÇÃO: Microsoft Teams e Meta Whatsapp.
--FERRAMENTA DE GESTÃO DE PROJETO: Github Projects.
--SISTEMA DE GERENCIAMENTO DE BANCO DE DADOS: MYSQL.
+- LINGUAGEM: Java Script.
+- BIBLIOTECA: React Native.
+- IDE: Visual Studio Code.
+- FERRAMENTAS WIREFRAMES: Figma.
+- FERRAMENTAS DE COMUNICAÇÃO: Microsoft Teams e Meta Whatsapp.
+- FERRAMENTA DE GESTÃO DE PROJETO: Github Projects.
+- SISTEMA DE GERENCIAMENTO DE BANCO DE DADOS: MYSQL.
 
 Apresente também uma figura explicando como as tecnologias estão relacionadas ou como uma interação do usuário com o sistema vai ser conduzida, por onde ela passa até retornar uma resposta ao usuário.
 
