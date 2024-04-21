@@ -35,7 +35,7 @@ O Esquema Relacional corresponde à representação dos dados em tabelas juntame
 - Ferramenta Wiregrames: Figma.
 - Ferramenta de Comunicação: Microsoft Teams e Meta Whatsapp.
 - Ferramenta de Gestão de Projeto: Github Projects.
-- Sistema de Gerenciamento de Banco de Dados:
+- Sistema de Gerenciamento de Banco de Dados: Mysql.
 
 ## Hospedagem
 
@@ -50,7 +50,7 @@ Explique como a hospedagem e o lançamento da plataforma foi feita.
 
 ## Qualidade de Software
 
-Com intuito de avaliarmos um aplicativo que faz agendamento de cortes de cabelo, foram empregados os requisitos de Proteção, facilidade de uso, performance das funcionalidades e capacidade de manutenção.
+Com intuito de avaliarmos um aplicativo que faz agendamento de cortes de cabelo, foram empregados os requisitos de Proteção, Usuabilidade, Performance das funcionalidades e Capacidade de manutenção.
 
 - 	Funcionalidade: O aplicativo deve fornecer todas as funcionalidades necessárias para o usuário poder fazer seu agendamento, de forma simples. 
 - Usabilidade: O aplicativo deve ser simples de navegar, com uma interface  organizada. 
