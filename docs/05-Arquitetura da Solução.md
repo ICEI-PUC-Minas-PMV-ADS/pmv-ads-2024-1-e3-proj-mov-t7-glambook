@@ -24,7 +24,8 @@ O Esquema Relacional corresponde à representação dos dados em tabelas juntame
 
 ## Modelo Físico
 
-Entregar um arquivo banco.sql contendo os scripts de criação das tabelas do banco de dados. Este arquivo deverá ser incluído dentro da pasta src\bd.
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t7-glambook/assets/123324372/ef090828-6b73-4c11-88c6-d62f3b8e210a)
+
 
 ## Tecnologias Utilizadas
 
@@ -35,8 +36,6 @@ Entregar um arquivo banco.sql contendo os scripts de criação das tabelas do ba
 - Ferramenta de Comunicação: Microsoft Teams e Meta Whatsapp.
 - Ferramenta de Gestão de Projeto: Github Projects.
 - Sistema de Gerenciamento de Banco de Dados:
-
-Apresente também uma figura explicando como as tecnologias estão relacionadas ou como uma interação do usuário com o sistema vai ser conduzida, por onde ela passa até retornar uma resposta ao usuário.
 
 ## Hospedagem
 
