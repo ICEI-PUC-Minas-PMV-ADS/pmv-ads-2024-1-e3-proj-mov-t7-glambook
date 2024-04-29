@@ -11,7 +11,6 @@ Modificação de dados do usuário   |     |
 Modificação de informações dos barbeiros |    |     |
 Busca de perfis de outros barbeiros|                     |       |
 Curtir (Like), avaliando a experiência com seus cortes de cabelo |         |       |
-Notificação de match - (Teste feito somente pelos desenvolvedores)  |         |       |
 Exibição de ícone do whatsapp- (Teste feito somente pelos desenvolvedores) |         |       |
 Avaliação da experiência - (Teste feito somente pelos desenvolvedores) |         |       |
 Fazer o login na aplicação |         |       |
