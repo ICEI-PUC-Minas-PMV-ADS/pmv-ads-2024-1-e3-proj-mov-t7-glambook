@@ -1,8 +1,17 @@
 # Registro de Testes de Usabilidade
 
-Após realizar os testes de usabilidade, obtém-se um relatório a partir das análises realizadas. O Registro de Testes de Usabilidade é um relatório que contém as evidências dos testes e relatos dos usuários participantes, baseado no Plano de Testes de Usabilidade desenvolvido para os casos de uso desta etapa.
+Abaixo segue o relatório que contém as evidências dos testes e relatos dos usuários participantes, baseado no Plano de Testes de Usabilidade. <br>
+                                                            
 
-As referências abaixo irão auxiliá-lo na geração do artefato “Registro de Testes de Usabilidade”.
-
-> **Links Úteis**:
-> - [Ferramentas de Testes de Usabilidade](https://www.usability.gov/how-to-and-tools/resources/templates.html)
+Atividade realizada    | Sucesso S/N | Observações
+-----------------------|-------------|------------
+Criar uma conta|    | 
+Cadastrar perfil do usuário |  | 
+Modificação de dados do usuário   |     |  
+Modificação de informações dos barbeiros |    |     |
+Busca de perfis de outros barbeiros|                     |       |
+Curtir (Like), avaliando a experiência com seus cortes de cabelo |         |       |
+Notificação de match - (Teste feito somente pelos desenvolvedores)  |         |       |
+Exibição de ícone do whatsapp- (Teste feito somente pelos desenvolvedores) |         |       |
+Avaliação da experiência - (Teste feito somente pelos desenvolvedores) |         |       |
+Fazer o login na aplicação |         |       |
