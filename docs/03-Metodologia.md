@@ -57,8 +57,8 @@ Exemplificação: A equipe utiliza metodologias ágeis, tendo escolhido o Scrum 
 |--------|-------------|---------------------------------------------|-----------|
 |Sprint 1|01/02 a 10/03| **Definição do problema**<br> **Proposta de solução**<br> **Personas e Histórias de usuários**<br> **Requisitos e Restrições**<br> **Diagrama de Casos de Uso**| Done |
 |Sprint 2|13/03 a 07/04| **Metodologia**<br> **Diagrama de Classes**<br> **Diagrama de Fluxo**<br> **Wireframes**<br> **Modelo Entidade Relacionamento**<br> **Projeto da Base de Dados**<br> **Plano de Testes de Software**<br> **Plano de Testes de Usabilidade**| Done |
-|Sprint 3|A DEFINIR| **Template Padrão do Site**<br> **Prova de Conceito da Arquitetura**<br> **Programação das Funcionalidades**<br> **Realização e Registro de Testes de Software**<br> **Realização e registro dos testes de usabilidade** |To Do|
-|Sprint 4|A DEFINIR| **Programação das demais funcionalidades**<br> **Realização e Registro dos demais Testes de Software**<br> **Realização e registro dos demais testes de usabilidade** | To Do |
+|Sprint 3|02/04 a 21/04| **Template Padrão do Site**<br> **Prova de Conceito da Arquitetura**<br> **Programação das Funcionalidades**<br> **Realização e Registro de Testes de Software**<br> **Realização e registro dos testes de usabilidade** |Done|
+|Sprint 4|07/05 a 26/05| **Programação das demais funcionalidades**<br> **Realização e Registro dos demais Testes de Software**<br> **Realização e registro dos demais testes de usabilidade** | Done |
 |Sprint 5|A DEFINIR| **Relatório do Teste de Software**<br> **Relatório do teste de usabilidade**<br> **Implantação da Solução**<br> **Desenvolvimento da apresentação**<br> **Vídeo de apresentação da solução** | To Do |
 
 
