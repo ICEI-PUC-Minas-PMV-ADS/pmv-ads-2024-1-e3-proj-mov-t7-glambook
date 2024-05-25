@@ -69,6 +69,7 @@ const styles = StyleSheet.create({
       padding: 10,
       backgroundColor: '#3B5341', 
       color: '#fff', 
+      borderRadius: 5,
     },
     textPressable: {
       color: '#fff',

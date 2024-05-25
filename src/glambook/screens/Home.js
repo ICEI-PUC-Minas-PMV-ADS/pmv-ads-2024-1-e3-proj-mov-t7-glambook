@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { View, Text, Image, KeyboardAvoidingView, StyleSheet, Button, onPress, TouchableOpacity } from "react-native";
+import { View, Text, Image, KeyboardAvoidingView, StyleSheet, Button, onPress, TouchableOpacity, Pressable } from "react-native";
 import { useNavigation, handleNavigateToLogin, handleNavigateToCadastro, NavigationContainer } from "@react-navigation/native";
 
 import Login from "./Login";
@@ -25,22 +25,23 @@ function Home() {
             source={require('../assets/favicon.png')}
             style={styles.logo}
           />
-          <Text style={styles.title}>Bem-vindo(a)! Com a Glambook sua beleza cabe na sua rotina!</Text>
+          <Text style={styles.title}>Sua beleza cabe na sua rotina!</Text>
         </View>
   
         <View style={styles.buttonsContainer}>
-          <Text>Já Possui uma conta?</Text>
-          <Button
-            title="Entrar"
-            onPress={handleNavigateToLogin}
-            style={styles.loginButton}
-          />
-          <Text>Primeira vez por aqui?</Text>
-          <Button
-            title="Cadastrar"
-            onPress={handleNavigateToCadastro}
-            style={styles.cadastroButton}
-          />
+
+          <Text style={styles.Text}>JÁ POSSUI UMA CONTA?</Text>
+
+          <Pressable style={styles.loginButton} onPress={handleNavigateToLogin} title="Login">
+            <Text>Fazer Login</Text>
+          </Pressable>
+
+          <Text style={styles.Text}>PRIMEIRA VEZ POR AQUI?</Text>
+
+          <Pressable style={styles.cadastroButton} onPress={handleNavigateToCadastro} title="Cadastrar">
+            <Text>Cadastrar</Text>
+          </Pressable>
+
         </View>
       </KeyboardAvoidingView>
     );
@@ -49,37 +50,52 @@ function Home() {
   const styles = StyleSheet.create({
     container: {
       flex: 1,
-      backgroundColor: '#fff',
-      padding: 20,
+      backgroundColor: '#1e212d',
+      alignItems: 'center',
+      justifyContent: 'center',
+      padding: 10,
     },
     header: {
       alignItems: 'center',
-      marginBottom: 20,
+      marginBottom: 10,
+      marginTop: 0,
     },
     logo: {
-      width: 150,
-      height: 150,
-      resizeMode: 'contain',
-    },
+      width: 280,
+      height: 280,  
+      marginBottom: 0,
+    },      
     title: {
       fontSize: 24,
       fontWeight: 'bold',
-      color: '#333', 
+      color: '#3B5341', 
+      marginBottom: 40,
+      marginTop: 0,
     },
     buttonsContainer: {
-      flexDirection: 'row',
-      justifyContent: 'space-around',
+      flexDirection: 'column', 
+      alignItems: 'center', 
+      justifyContent: 'space-between', 
+      marginTop: 20, 
     },
     loginButton: {
-      backgroundColor: '#007bff', 
+      backgroundColor: '#3B5341',
+      color: '#fff', 
       padding: 10,
       borderRadius: 5,
+      marginBottom: 25, 
     },
     cadastroButton: {
-      backgroundColor: '#28a745', 
+      backgroundColor: '#3B5341',
+      color: '#fff', 
       padding: 10,
       borderRadius: 5,
     },
+    Text: {
+      color: '#fff',
+      marginBottom: 20,
+    }
+    
   });
 
 export default Home;

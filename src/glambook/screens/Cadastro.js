@@ -69,7 +69,8 @@ function Cadastro() {
         height: 40,
         padding: 10,
         backgroundColor: '#3B5341', 
-        color: '#fff', 
+        color: '#fff',
+        borderRadius: 5, 
       },
       textPressable: {
         color: '#fff',
