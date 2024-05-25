@@ -6,36 +6,35 @@ Esta seção apresenta o planejamento dos procedimentos, especificações e mét
 
 Os testes de usabilidade tem como principais objetivos:
 
-- Investigar problemas em relação à usabilidade do sistema que afetem a experiência do usuário;
-- Avaliar se o sistema permite ao usuário o cadastro de seus dados como usuário, de maneira intuitiva, assertiva e com efetivo armazenamento de dados;
-- Verificar se o usuário cadastrado consegue identificar e usufruir de todas as funcionalidades do sistema;
-- Identificar as principais dificuldades do usuário em relação ao fluxo de interação com a aplicação;
-- Verificar se as funcionalides disponíveis atendem à necessidades do usuário enquanto empresa;
-- Identificar implementações que podem ser feitas para a melhoria da usabilidade do sistema;
-- Avaliar a usabilidade da aplicação com base nos requisitos funcionais e não funcionais definidos;
-- Observar a compatibilidade da aplicação interativa com diferentes navegadores;
-- Verificar se aplicação fornece experiências semelhantes ao usuário em diferentes tipos de telas e dispositivos;
-- Mensurar o nível de satisfação de usuários em relação à aplicação.
+- Identificar problemas relacionados à usabilidade do sistema que possam impactar a experiência do usuário;
+- Avaliar se o sistema permite que os usuários cadastrem seus dados de maneira intuitiva, precisa e com armazenamento eficaz;
+- Verificar se os usuários cadastrados conseguem localizar e utilizar todas as funcionalidades do sistema;
+- Detectar as principais dificuldades dos usuários no fluxo de interação com a aplicação;
+- Garantir que as funcionalidades disponíveis atendam às necessidades dos usuários empresariais;
+- Sugerir melhorias para aumentar a usabilidade do sistema;
+- Avaliar a usabilidade da aplicação com base nos requisitos funcionais e não funcionais estabelecidos;
+- Testar a compatibilidade da aplicação com diferentes navegadores;
+- Assegurar que a aplicação proporcione experiências consistentes em diversas telas e dispositivos;
+- Medir o nível de satisfação dos usuários em relação à aplicação.
 
 ## Participantes
 
-Dado o nível de complexidade da aplicação e considerando um nível de cobertura de problemas de usabilidade de no mínimo 75%, decidiu-se uma amostra de voluntários composta por 05 pessoas. 
+Dada a complexidade da aplicação e visando alcançar uma cobertura mínima de 75% dos problemas de usabilidade, optou-se por selecionar uma amostra de 5 voluntários.
 
-Os critérios de escolha de participantes são:
+Os critérios para escolha dos participantes são:
 
-- Usuários que compreendam o público-alvo da aplicação;
-- Usuários que tenham experiência básica com diferentes tipos de navegadores;
-- Usuários que saibam acessar navegadores tanto através de computadores como através de dispositiveis móveis;
-- Usuários de diferentes interesses em termos de serviços de beleza.
-- Representantes de empresas que possuam diferentes áreas de atuação no ramo da beleza e estética.
+Usuários que representem o público-alvo da aplicação;
+Usuários com experiência básica em diversos navegadores;
+Usuários que saibam acessar navegadores tanto em computadores quanto em dispositivos móveis;
+Usuários com diferentes interesses em serviços de beleza;
+Representantes de empresas com diferentes áreas de atuação no setor de beleza e estética.
+Esses critérios foram especificados para garantir que diversas perspectivas de usabilidade sejam consideradas dentro da amostra selecionada, conforme descrito a seguir:
 
-A especificação desses critérios, a fim de que sejam consideradas diferentes perspectivas de usabilidade dentro da amostra selecionada, se dará da seguinte maneira:
-
-1. Usuário que represente o público alvo "Cliente", que acessará a aplicação através de dispositivo móvel.
-2. Usuário que represente o público alvo "Cliente", acessará a aplicação através de um computador e que possua, pelo menos, as seguintes diferenças em relação ao anterior: gênero, idade, interesses de serviço/produto.
-3. Usuário que represente o público alvo "Empresa", que acessará a aplicação através de um computador.
-4. Usuário que represente o público alvo "Empresa", que acessará a aplicação através de um navegador diferente do anterior e que possua, no mínimo, as seguintes caracterísicas divergentes do usuário anterior: serviços ofertados pela empresa, localização e número de funcionários.
-5. Usuário que represente o público alvo "Empresa", que acessará a aplicação através de um dispositivo móvel e que possua, ao menos, as seguintes caracterísicas divergentes dos usuários anteriores: serviços ofertados pela empresa, localização e número de funcionários.
+Usuário representando o público-alvo "Cliente", que acessa a aplicação por meio de dispositivo móvel.
+Usuário representando o público-alvo "Cliente", que acessa a aplicação via computador, com pelo menos as seguintes diferenças em relação ao anterior: gênero, idade e interesses de serviço/produto.
+Usuário representando o público-alvo "Empresa", que acessa a aplicação através de um computador.
+Usuário representando o público-alvo "Empresa", que utiliza um navegador diferente do anterior para acessar a aplicação, e que possui, no mínimo, as seguintes diferenças: serviços oferecidos pela empresa, localização e número de funcionários.
+Usuário representando o público-alvo "Empresa", que acessa a aplicação por meio de dispositivo móvel, com ao menos as seguintes diferenças em relação aos usuários anteriores: serviços oferecidos pela empresa, localização e número de funcionários.
 
 ## Método e Procedimentos de Testes
 
