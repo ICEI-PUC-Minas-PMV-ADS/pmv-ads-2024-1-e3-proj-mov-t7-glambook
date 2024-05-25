@@ -1,12 +1,25 @@
 import React, { useState } from 'react';
 import { StyleSheet, Text, View, TextInput, Image, Pressable } from 'react-native';
+import { useNavigation } from '@react-navigation/native';
+
+import Agendar from './Agendar';
 
 function Login() {
+
+  const navigation = useNavigation();
+
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
 
+  const emailCorreto = 'glambook@gmail.com';
+  const senhaCorreta = '125943';
+
   const handleLogin = () => {
-    console.log('fazer função de login');
+    if(email == emailCorreto && password == senhaCorreta) {
+      navigation.navigate('Agendar')
+    } else {
+      return alert('Usuário ou senha incorretos')
+    }
   };
 
   return (

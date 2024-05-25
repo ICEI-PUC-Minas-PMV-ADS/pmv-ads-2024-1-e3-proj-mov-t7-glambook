@@ -1,13 +1,18 @@
 import React, { useState } from 'react';
-import { StyleSheet, Text, View, TextInput, Image, Pressable } from 'react-native';
+import { StyleSheet, Text, View, TextInput, Image, Pressable} from 'react-native';
+import { useNavigation } from '@react-navigation/native';
+
+import Login from './Login';
 
 function Cadastro() {
+
+    const navigation = useNavigation();
+
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
   
-    const handleRegistro = () => {
-      
-      console.log('fazer função de cadastro');
+    function handleRegistro() {
+        navigation.navigate('Login')
     };
   
     return (

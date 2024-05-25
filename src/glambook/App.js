@@ -9,6 +9,8 @@ import Agendar from './screens/Agendar.js';
 import Agendamentos from './screens/Agendamentos.js';
 
 const Stack = createNativeStackNavigator();
+const usuarioCorreto = 'glambookUser';
+const senhaCorreta = '125943';
 
 export default function App() {
 
