@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { StyleSheet, Text, View, TextInput, Image, Pressable } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
 
-import Formulario from './Formulario';
+import Cadastro from './Cadastro';
 
 
 function Login() {
@@ -18,7 +18,7 @@ function Login() {
 
   const handleLogin = () => {
     if(email == emailCorreto && password == senhaCorreta) {
-      navigation.navigate('Formulario')
+      navigation.navigate('Perfil')
     } else {
       return alert('Usuário ou senha incorretos')
     }

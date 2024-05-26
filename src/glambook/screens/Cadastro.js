@@ -1,96 +1,101 @@
 import React, { useState } from 'react';
-import { StyleSheet, Text, View, TextInput, Image, Pressable} from 'react-native';
+import { View, Text, TextInput, StyleSheet, Button, KeyboardAvoidingView, Pressable } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
 
-import Login from './Login';
 
 function Cadastro() {
 
-    const navigation = useNavigation();
-
-    const [email, setEmail] = useState('');
-    const [password, setPassword] = useState('');
-  
-    function handleRegistro() {
-
-      if (TextInput != ''){
-        navigation.navigate('Login');
-      } else {
-        return 'O preenchimento deste campo é obrigatório!';
-      }
-    };
+  const navigation = useNavigation();
+  const emailCorreto = "glambook@gmail.com"
+  const senhaCorreta = "123senha**"
 
     return (
-      <View style={styles.container}>
-      <Image source={require('../assets/favicon.png')} style={styles.logo} />
-        <Text style={styles.title}>Cadastrar</Text>
-  
+      <KeyboardAvoidingView behavior="padding" style={styles.container}>
+      <View style={styles.formContainer}>
+        <Text style={styles.formTitle}>Fazer cadastro</Text>
+    
         <TextInput
-          style={styles.input}
+          style={styles.inputField}
+          placeholder="Nome Completo"
+          onChangeText={(text) => handleInputChange('nomeCompleto', text)}
+        />
+
+        <TextInput
+          style={styles.inputField}
           placeholder="Email"
-          onChangeText={(text) => setEmail(text)}
-          value={email}
-          keyboardType="email-address"
-          autoCapitalize="none"
-          autoCorrect={false}
+          onChangeText={(text) => handleInputChange('Email', text)}
         />
-  
+
         <TextInput
-          style={styles.input}
+          style={styles.inputField}
           placeholder="Senha"
-          onChangeText={(text) => setPassword(text)}
-          value={password}
-          secureTextEntry={true}
+          onChangeText={(text) => handleInputChange('Senha', text)}
         />
-  
-         <Pressable title="Entrar" style={styles.Pressable} onPress={handleRegistro} >
-         <Text style={styles.textPressable}>Fazer Cadastro</Text>
-         </Pressable>
+    
+        <TextInput
+          style={styles.inputField}
+          placeholder="CEP"
+          onChangeText={(text) => handleInputChange('CEP', text)}
+        />
+    
+        <TextInput
+          style={styles.inputField}
+          placeholder="Telefone"
+          onChangeText={(text) => handleInputChange('telefone', text)}
+          keyboardType="number-pad"
+        />
+
+        <Pressable style={styles.submitButton} onPress={() => navigation.navigate('Perfil')} >
+          <Text style={styles.textButton}>Ir para o seu perfil</Text>
+        </Pressable>
+
       </View>
+      </KeyboardAvoidingView>
     );
-  };
-  
-  const styles = StyleSheet.create({
+    }; 
+
+    const styles = StyleSheet.create({
       container: {
         flex: 1,
-        backgroundColor: '#1e212d', 
+        backgroundColor: '#1e212d',
         alignItems: 'center',
         justifyContent: 'center',
-        padding: 10,
+        padding: 20,
       },
-      title: {
+      formContainer: {
+        width: '90%',
+        backgroundColor: '#fff',
+        padding: 20,
+        borderRadius: 10,
+        shadowColor: '#000',
+        shadowOffset: { width: 0, height: 2 },
+        shadowOpacity: 0.25,
+        shadowRadius: 3.84,
+        elevation: 5,
+      },
+      formTitle: {
         fontSize: 24,
         fontWeight: 'bold',
-        color: '#3B5341', 
+        color: '#3B5341',
         marginBottom: 20,
-        marginTop: 0
       },
-      input: {
-          width: 300,
-          padding: 10,
-          borderWidth: 1,
-          borderColor: '#333', 
-          backgroundColor: '#fff', 
-          color: '#00C2FF', 
-          marginBottom: 10,
-        },      
-      Pressable: {
-        width: 300,
-        height: 40,
+      inputField: {
+        width: '100%',
         padding: 10,
-        backgroundColor: '#3B5341', 
-        color: '#fff',
-        borderRadius: 5, 
+        borderWidth: 1,
+        borderColor: '#ccc',
+        borderRadius: 5,
+        marginBottom: 10,
       },
-      textPressable: {
-        color: '#fff',
-        textAlign: "center"
+      submitButton: {
+        backgroundColor: '#3B5341',
+        padding: 10,
+        borderRadius: 5,
+        marginTop: 10,
       },
-      logo: {
-          width: 300, 
-          height: 300, 
-          resizeMode: 'contain', 
-          marginBottom: 0,
-        },
-      });
+      textButton: {
+        color: '#fff',
+      }
+    });
+    
 export default Cadastro;
