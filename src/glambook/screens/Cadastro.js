@@ -12,9 +12,14 @@ function Cadastro() {
     const [password, setPassword] = useState('');
   
     function handleRegistro() {
-        navigation.navigate('Login')
+
+      if (TextInput != ''){
+        navigation.navigate('Login');
+      } else {
+        return 'O preenchimento deste campo é obrigatório!';
+      }
     };
-  
+
     return (
       <View style={styles.container}>
       <Image source={require('../assets/favicon.png')} style={styles.logo} />
