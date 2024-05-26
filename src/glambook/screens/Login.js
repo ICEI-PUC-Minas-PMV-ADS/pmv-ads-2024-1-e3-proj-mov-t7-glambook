@@ -2,7 +2,8 @@ import React, { useState } from 'react';
 import { StyleSheet, Text, View, TextInput, Image, Pressable } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
 
-import Agendar from './Agendar';
+import Formulario from './Formulario';
+
 
 function Login() {
 
@@ -11,12 +12,13 @@ function Login() {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
 
-  const emailCorreto = 'glambook@gmail.com';
-  const senhaCorreta = '125943';
+  const emailCorreto = "glambook@gmail.com"
+  const senhaCorreta = "123senha**"
+
 
   const handleLogin = () => {
     if(email == emailCorreto && password == senhaCorreta) {
-      navigation.navigate('Agendar')
+      navigation.navigate('Formulario')
     } else {
       return alert('Usuário ou senha incorretos')
     }
