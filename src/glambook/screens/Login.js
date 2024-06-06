@@ -13,7 +13,7 @@ function Login() {
   const [password, setPassword] = useState('');
 
   const emailCorreto = "glambook@gmail.com"
-  const senhaCorreta = "123senha**"
+  const senhaCorreta = "senha123"
 
 
   const handleLogin = () => {

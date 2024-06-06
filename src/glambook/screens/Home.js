@@ -32,14 +32,14 @@ function Home() {
 
           <Text style={styles.Text}>JÁ POSSUI UMA CONTA?</Text>
 
-          <Pressable style={styles.loginButton} onPress={handleNavigateToLogin} title="Login">
-            <Text>Fazer Login</Text>
+          <Pressable style={styles.button} onPress={handleNavigateToLogin}>
+            <Text styles={styles.textButton}>LOGIN</Text>
           </Pressable>
 
           <Text style={styles.Text}>PRIMEIRA VEZ POR AQUI?</Text>
 
-          <Pressable style={styles.cadastroButton} onPress={handleNavigateToCadastro} title="Cadastrar">
-            <Text>Cadastrar</Text>
+          <Pressable style={styles.button} onPress={handleNavigateToCadastro}>
+            <Text styles={styles.textButton}>CADASTRAR</Text>
           </Pressable>
 
         </View>
@@ -78,23 +78,21 @@ function Home() {
       justifyContent: 'space-between', 
       marginTop: 20, 
     },
-    loginButton: {
+    button: {
       backgroundColor: '#3B5341',
-      color: '#fff', 
       padding: 10,
       borderRadius: 5,
       marginBottom: 25, 
+      width: 100,
     },
-    cadastroButton: {
-      backgroundColor: '#3B5341',
-      color: '#fff', 
-      padding: 10,
-      borderRadius: 5,
+    textButton: {
+      color: '#fff',
+      textAlign: "center"
     },
     Text: {
       color: '#fff',
       marginBottom: 20,
-    }
+    },
     
   });
 

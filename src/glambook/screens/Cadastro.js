@@ -7,7 +7,7 @@ function Cadastro() {
 
   const navigation = useNavigation();
   const emailCorreto = "glambook@gmail.com"
-  const senhaCorreta = "123senha**"
+  const senhaCorreta = "senha123"
 
     return (
       <KeyboardAvoidingView behavior="padding" style={styles.container}>
@@ -17,31 +17,26 @@ function Cadastro() {
         <TextInput
           style={styles.inputField}
           placeholder="Nome Completo"
-          onChangeText={(text) => handleInputChange('nomeCompleto', text)}
         />
 
         <TextInput
           style={styles.inputField}
           placeholder="Email"
-          onChangeText={(text) => handleInputChange('Email', text)}
         />
 
         <TextInput
           style={styles.inputField}
           placeholder="Senha"
-          onChangeText={(text) => handleInputChange('Senha', text)}
         />
     
         <TextInput
           style={styles.inputField}
           placeholder="CEP"
-          onChangeText={(text) => handleInputChange('CEP', text)}
         />
     
         <TextInput
           style={styles.inputField}
           placeholder="Telefone"
-          onChangeText={(text) => handleInputChange('telefone', text)}
           keyboardType="number-pad"
         />
 
@@ -95,7 +90,8 @@ function Cadastro() {
       },
       textButton: {
         color: '#fff',
-      }
-    });
+          textAlign: 'center'
+      },
+  });
     
 export default Cadastro;
