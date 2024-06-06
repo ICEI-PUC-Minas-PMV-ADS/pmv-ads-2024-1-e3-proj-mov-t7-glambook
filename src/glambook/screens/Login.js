@@ -1,25 +1,33 @@
 import React, { useState } from 'react';
 import { StyleSheet, Text, View, TextInput, Image, Pressable } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
+import { getAuth, signInWithEmailAndPassword } from "firebase/auth";
 
-import Cadastro from './Cadastro';
+import Perfil from './Perfil';
 
 
 function Login() {
 
+  const auth = getAuth()
   const navigation = useNavigation();
 
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
 
-
   const handleLogin = () => {
-    if(email == emailCorreto && password == senhaCorreta) {
-      navigation.navigate('Perfil')
-    } else {
-      return alert('Usuário ou senha incorretos')
-    }
-  };
+  signInWithEmailAndPassword(auth, email, password)
+  .then((userCredential) => { 
+    const user = userCredential.user;
+    console.log(user);
+    navigation.navigate('Perfil')
+  })
+  .catch((error) => {
+    const errorCode = error.code;
+    const errorMessage = error.message;
+    console.log(errorCode);
+    console.log(errorMessage);
+  });
+  }
 
   return (
     <View style={styles.container}>
