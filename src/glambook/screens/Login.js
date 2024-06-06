@@ -12,9 +12,6 @@ function Login() {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
 
-  const emailCorreto = "glambook@gmail.com"
-  const senhaCorreta = "senha123"
-
 
   const handleLogin = () => {
     if(email == emailCorreto && password == senhaCorreta) {

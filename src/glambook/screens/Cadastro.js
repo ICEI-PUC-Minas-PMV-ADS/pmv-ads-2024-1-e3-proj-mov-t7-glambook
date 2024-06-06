@@ -1,13 +1,28 @@
 import React, { useState } from 'react';
 import { View, Text, TextInput, StyleSheet, Button, KeyboardAvoidingView, Pressable } from 'react-native';
-import { useNavigation } from '@react-navigation/native';
+import { auth } from '../services/FirebaseConfig.js'
+import { createUserWithEmailAndPassword } from 'firebase/auth'
 
 
 function Cadastro() {
 
-  const navigation = useNavigation();
-  const emailCorreto = "glambook@gmail.com"
-  const senhaCorreta = "senha123"
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
+
+  const handleCadastro = () => { 
+  createUserWithEmailAndPassword(auth, email, password)
+  .then((userCredential) => {
+    const user = userCredential.user;
+    console.log(user)
+    setUser(user)
+  })
+  .catch((error) => {
+    const errorCode = error.code;
+    const errorMessage = error.message;
+    console.log(errorMessage)
+    console.log(errorCode)
+  });
+  }
 
     return (
       <KeyboardAvoidingView behavior="padding" style={styles.container}>
@@ -20,13 +35,21 @@ function Cadastro() {
         />
 
         <TextInput
-          style={styles.inputField}
-          placeholder="Email"
+        style={styles.inputField}
+        placeholder="Email"
+        onChangeText={(text) => setEmail(text)}
+        value={email}
+        keyboardType="email-address"
+        autoCapitalize="none"
+        autoCorrect={false}
         />
 
         <TextInput
-          style={styles.inputField}
-          placeholder="Senha"
+        style={styles.inputField}
+        placeholder="Senha"
+        onChangeText={(text) => setPassword(text)}
+        value={password}
+        secureTextEntry={true}
         />
     
         <TextInput
@@ -40,8 +63,8 @@ function Cadastro() {
           keyboardType="number-pad"
         />
 
-        <Pressable style={styles.submitButton} onPress={() => navigation.navigate('Perfil')} >
-          <Text style={styles.textButton}>Ir para o seu perfil</Text>
+        <Pressable style={styles.submitButton} onPress={handleCadastro}>
+          <Text style={styles.textButton}>Fazer cadastro</Text>
         </Pressable>
 
       </View>
