@@ -2,6 +2,8 @@ import { View, Text, StyleSheet, Button, KeyboardAvoidingView, TextInput } from 
 import { useNavigation } from '@react-navigation/native';
 import RNPickerSelect from 'react-native-picker-select';
 
+import Agendamentos from './Agendamentos';
+
 function Servicos() {
 
 
@@ -67,7 +69,8 @@ function Servicos() {
                 title="Agendar"
                 style={styles.submitButton}
                 onPress={() => {
-                alert('Agendamento realizado');
+                  alert('Agendamento realizado!');
+                  navigation.navigate('Agendamentos')
                 }}
             />
         </KeyboardAvoidingView>
