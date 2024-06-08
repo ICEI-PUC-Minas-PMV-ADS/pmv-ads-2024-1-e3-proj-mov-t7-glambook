@@ -1,5 +1,4 @@
 import { useNavigation } from '@react-navigation/native';
-import React, { useState } from 'react';
 import { View, Text, StyleSheet, Image, TouchableOpacity } from 'react-native';
 
 import Agendamentos from './Agendamentos';
