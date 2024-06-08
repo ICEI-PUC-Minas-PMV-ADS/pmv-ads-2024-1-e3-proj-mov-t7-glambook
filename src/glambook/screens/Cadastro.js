@@ -31,11 +31,13 @@ function Cadastro() {
     
         <TextInput
           style={styles.inputField}
+          class="nome"
           placeholder="Nome Completo"
         />
 
         <TextInput
         style={styles.inputField}
+        class="email"
         placeholder="Email"
         onChangeText={(text) => setEmail(text)}
         value={email}
@@ -54,11 +56,13 @@ function Cadastro() {
     
         <TextInput
           style={styles.inputField}
+          class="cep"
           placeholder="CEP"
         />
     
         <TextInput
           style={styles.inputField}
+          class="telefone"
           placeholder="Telefone"
           keyboardType="number-pad"
         />
@@ -70,7 +74,7 @@ function Cadastro() {
       </View>
       </KeyboardAvoidingView>
     );
-    }; 
+   }
 
     const styles = StyleSheet.create({
       container: {
