@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigation } from "@react-navigation/native";
 import { View, Text, TextInput, StyleSheet, KeyboardAvoidingView, Pressable } from 'react-native';
-import { createUserWithEmailAndPassword } from 'firebase/auth'
+import { createUserWithEmailAndPassword, setUser } from 'firebase/auth'
 import { addDoc, collection } from 'firebase/firestore'
 import { db, auth } from '../components/FirebaseConfig.js'
 
@@ -34,6 +34,7 @@ function Cadastro() {
     console.log(user)
     setUser(user)
   })
+  alert('Cadastro realizado com sucesso!')
   };
 
     return (
