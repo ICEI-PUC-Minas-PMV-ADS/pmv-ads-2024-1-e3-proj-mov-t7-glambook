@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { View, Text, Image, KeyboardAvoidingView, StyleSheet, Button, onPress, TouchableOpacity, Pressable } from "react-native";
-import { useNavigation, handleNavigateToLogin, handleNavigateToCadastro, NavigationContainer } from "@react-navigation/native";
+import { useNavigation } from "@react-navigation/native";
 
 import Login from "./Login";
 import Cadastro from "./Cadastro";
