@@ -1,28 +1,40 @@
 import React, { useState } from 'react';
+import { useNavigation } from "@react-navigation/native";
 import { View, Text, TextInput, StyleSheet, KeyboardAvoidingView, Pressable } from 'react-native';
-import { auth } from '../services/FirebaseConfig.js'
 import { createUserWithEmailAndPassword } from 'firebase/auth'
+import { addDoc, collection } from 'firebase/firestore'
+import { db, auth } from '../components/FirebaseConfig.js'
+
+import Login from './Login.js'
 
 
 function Cadastro() {
 
+  const navigation = useNavigation(); 
+  const [nome, setNome] = useState('');
   const [email, setEmail] = useState('');
-  const [password, setPassword] = useState('');
+  const [senha, setSenha] = useState('');
+  const [telefone, setTelefone] = useState('');
+  const [cep, setCep] = useState('');
 
-  const handleCadastro = () => { 
-  createUserWithEmailAndPassword(auth, email, password)
+  const handleNavigateToLogin = () => {
+    navigation.navigate('Login'); 
+  };
+
+  const handleCadastro = () => {
+  addDoc(collection(db, "usuarios"), {
+    nome: nome,
+    email: email,
+    cep: cep,
+    telefone: telefone,
+  });
+  createUserWithEmailAndPassword(auth, email, senha)
   .then((userCredential) => {
     const user = userCredential.user;
     console.log(user)
     setUser(user)
   })
-  .catch((error) => {
-    const errorCode = error.code;
-    const errorMessage = error.message;
-    console.log(errorMessage)
-    console.log(errorCode)
-  });
-  }
+  };
 
     return (
       <KeyboardAvoidingView behavior="padding" style={styles.container}>
@@ -30,9 +42,14 @@ function Cadastro() {
         <Text style={styles.formTitle}>Fazer cadastro</Text>
     
         <TextInput
-          style={styles.inputField}
-          class="nome"
-          placeholder="Nome Completo"
+        style={styles.inputField}
+        class="nome"
+        placeholder="Nome Completo"
+        onChangeText={(text) => setNome(text)}
+        value={nome}
+        keyboardType="email-address"
+        autoCapitalize="none"
+        autoCorrect={false}
         />
 
         <TextInput
@@ -48,27 +65,37 @@ function Cadastro() {
 
         <TextInput
         style={styles.inputField}
+        class="senha"
         placeholder="Senha"
-        onChangeText={(text) => setPassword(text)}
-        value={password}
+        onChangeText={(text) => setSenha(text)}
+        value={senha}
         secureTextEntry={true}
         />
     
         <TextInput
-          style={styles.inputField}
-          class="cep"
-          placeholder="CEP"
+        style={styles.inputField}
+        class="cep"
+        placeholder="CEP"
+        onChangeText={(text) => setCep(text)}
+        value={cep}
+        keyboardType="number-pad"
         />
     
         <TextInput
-          style={styles.inputField}
-          class="telefone"
-          placeholder="Telefone"
-          keyboardType="number-pad"
+        style={styles.inputField}
+        class="telefone"
+        placeholder="Telefone"
+        onChangeText={(text) => setTelefone(text)}
+        value={telefone}
+        keyboardType="number-pad"
         />
 
         <Pressable style={styles.submitButton} onPress={handleCadastro}>
           <Text style={styles.textButton}>Fazer cadastro</Text>
+        </Pressable>
+
+        <Pressable style={styles.submitButton} onPress={handleNavigateToLogin}>
+          <Text style={styles.textButton}>Ir para o Login</Text>
         </Pressable>
 
       </View>
