@@ -69,7 +69,6 @@ function Servicos() {
                 <TextInput
                   style={styles.input}
                   placeholder="DD/MM"
-                  keyboardType="date"
                   onChangeText={(text) => setData(text)}
                   value={data}
                 />
