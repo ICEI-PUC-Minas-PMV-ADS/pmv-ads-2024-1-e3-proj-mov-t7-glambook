@@ -1,6 +1,9 @@
+import React, { useState } from 'react';
 import { View, Text, StyleSheet, Button, KeyboardAvoidingView, TextInput } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
 import RNPickerSelect from 'react-native-picker-select';
+import { addDoc, collection } from 'firebase/firestore'
+import { db } from '../components/FirebaseConfig.js'
 
 import Agendamentos from './Agendamentos';
 
@@ -8,7 +11,19 @@ function Servicos() {
 
 
     const navigation = useNavigation();
+    const [servico, setServico] = useState('');
+    const [estabelecimento, setEstabelecimento] = useState('');
+    const [data, setData] = useState('');
+    const [email, setEmail] = useState('');
 
+    const handleAgendamentos = () => {
+      addDoc(collection(db, "agendamentos"), {
+        servico: servico,
+        estabelecimento: estabelecimento,
+        data: data,
+        email: email,
+      });
+    }
       return (
         <KeyboardAvoidingView behavior="padding" style={styles.container}>
 
@@ -20,7 +35,8 @@ function Servicos() {
 
                 <RNPickerSelect
                   style={styles.input}
-                  onValueChange={(value) => console.log(value)}
+                  onValueChange={(value) => setServico(value)}
+                  value={servico}
                     items={[
                       { label: 'Manicure', value: 'manicure' },
                       { label: 'Pedicure', value: 'pedicure' },
@@ -37,7 +53,8 @@ function Servicos() {
                 
                 <RNPickerSelect
                   style={styles.input}
-                  onValueChange={(value) => console.log(value)}
+                  onValueChange={(value) => setEstabelecimento(value)}
+                  value={estabelecimento}
                     items={[
                       { label: 'The J', value: 'the j' },
                       { label: 'Socila', value: 'socila' },
@@ -51,16 +68,20 @@ function Servicos() {
                   
                 <TextInput
                   style={styles.input}
-                  placeholder="DD/MM/AAAA"
-                  keyboardType="numeric"
+                  placeholder="DD/MM"
+                  keyboardType="date"
+                  onChangeText={(text) => setData(text)}
+                  value={data}
                 />
 
-              <Text style={styles.text}>Informe seu CPF</Text>
+              <Text style={styles.text}>Informe seu e_mail</Text>
 
                 <TextInput
                   style={styles.input}
-                  placeholder="123.456.789-10"
-                  keyboardType="numeric"
+                  placeholder="exemplo@gmail.com"
+                  keyboardType="email-address"
+                  onChangeText={(text) => setEmail(text)}
+                  value={email}
                 />
 
             </View>
@@ -69,6 +90,7 @@ function Servicos() {
                 title="Agendar"
                 style={styles.submitButton}
                 onPress={() => {
+                  handleAgendamentos();
                   alert('Agendamento realizado!');
                   navigation.navigate('Agendamentos')
                 }}
