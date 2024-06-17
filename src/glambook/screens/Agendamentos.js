@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { View, FlatList, Text, StyleSheet, Pressable } from 'react-native';
+import { View, FlatList, Text, StyleSheet } from 'react-native';
 import { collection, getDocs } from "firebase/firestore";
 import { db } from "../components/FirebaseConfig.js"
 
