@@ -9,7 +9,7 @@ Criar uma conta| S   |
 Cadastrar perfil do usuário | S | 
 Modificação de dados do usuário   |   N  |  
 Modificação de informações dos barbeiros | N   |     |
-Busca de perfis de outros barbeiros|   N                  |       |
+Busca de perfis de outros barbeiros|   S                  |       |
 Curtir (Like), avaliando a experiência com seus cortes de cabelo |  N       |       |
 Exibição de ícone do whatsapp- (Teste feito somente pelos desenvolvedores) |    N     |       |
 Avaliação da experiência - (Teste feito somente pelos desenvolvedores) |   N      |       |
