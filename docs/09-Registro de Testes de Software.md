@@ -69,14 +69,6 @@ Mascaração de Campos: Os dois campos, "Senha" e "Confirmação de Senha", fora
 Usabilidade: A interface de cadastro foi intuitiva e fácil de navegar, proporcionando uma experiência positiva para os usuários ao realizarem seu cadastro.
 Validação de Senha: Houve uma validação adequada que impediu o avanço do cadastro sem que os campos de senha e confirmação de senha correspondessem, reforçando a segurança.
 
-Requisitos Associados:
-
-RF-02: O sistema deve permitir que os usuários agendem serviços.
-
-RF-03: O sistema deve permitir a seleção do estabelecimento, data e hora para o serviço.
-
-Objetivo do Teste: Verificar se o sistema permite que os usuários selecionem um serviço, escolham um estabelecimento e agendem uma data e hora.
-
 Procedimentos:
 
 Acessar o aplicativo.
