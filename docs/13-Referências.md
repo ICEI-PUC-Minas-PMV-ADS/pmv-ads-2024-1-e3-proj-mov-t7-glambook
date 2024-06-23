@@ -1,6 +1,6 @@
 # Referências
 
-Inclua todas as referências (livros, artigos, sites, etc) utilizados no desenvolvimento do trabalho.
+
 
 React Native: React Native. Disponível em: <https://reactnative.dev/>. Acesso em: 23 jun. 2024.
 
