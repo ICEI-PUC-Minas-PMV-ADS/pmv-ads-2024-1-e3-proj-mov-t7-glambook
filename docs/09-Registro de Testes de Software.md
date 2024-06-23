@@ -57,7 +57,7 @@ RF-007: Apresentar imagens ou especificações do corte de cabelo.
 Objetivo do Teste	Verificar se o sistema apresenta imagens ou especificações dos cortes de cabelo disponíveis.
 Procedimentos (passo a passo)	Acessar o aplicativo; </br> Selecionar a opção "Cortes de Cabelo"; </br> Visualizar as imagens ou especificações disponíveis.
 Resultado esperado	Imagens ou especificações dos cortes de cabelo são apresentadas.
-Avaliação	O sistema apresentou as imagens ou especificações dos cortes de cabelo conforme esperado.
+Avaliação	O sistema não apresentou as imagens ou especificações dos cortes de cabelo conforme esperado.
 
 ## Avaliação
 
