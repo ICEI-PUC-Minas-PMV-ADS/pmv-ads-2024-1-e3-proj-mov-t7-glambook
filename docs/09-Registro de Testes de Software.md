@@ -62,7 +62,7 @@ Avaliação	O sistema não apresentou as imagens ou especificações dos cortes 
 ## Avaliação
 
 Resultados do Teste:
-O teste CT-001 foi conduzido para verificar se os campos "Senha" e "Confirmação de Senha" são mascarados na página de cadastro do sistema, conforme o requisito RF-01. Abaixo está uma análise dos resultados:
+O teste foi conduzido para verificar se os campos "Senha" e "Confirmação de Senha" são mascarados na página de cadastro do sistema, conforme os requisitos. Abaixo está uma análise dos resultados:
 
 Pontos Fortes
 Mascaração de Campos: Os dois campos, "Senha" e "Confirmação de Senha", foram mascarados corretamente, garantindo privacidade e segurança das informações inseridas pelos usuários.
