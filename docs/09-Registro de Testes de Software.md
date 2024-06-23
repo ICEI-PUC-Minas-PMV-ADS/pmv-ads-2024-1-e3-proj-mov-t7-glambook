@@ -14,7 +14,12 @@ Relatório com as evidências dos testes de software realizados no sistema pela 
 
 ## Avaliação
 
-Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identificados na solução. Comente como o grupo pretende atacar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.
+Resultados do Teste:
+O teste CT-001 foi conduzido para verificar se os campos "Senha" e "Confirmação de Senha" são mascarados na página de cadastro do sistema, conforme o requisito RF-01. Abaixo está uma análise dos resultados:
 
-> **Links Úteis**:
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
+Pontos Fortes
+Mascaração de Campos: Os dois campos, "Senha" e "Confirmação de Senha", foram mascarados corretamente, garantindo privacidade e segurança das informações inseridas pelos usuários.
+Usabilidade: A interface de cadastro foi intuitiva e fácil de navegar, proporcionando uma experiência positiva para os usuários ao realizarem seu cadastro.
+Validação de Senha: Houve uma validação adequada que impediu o avanço do cadastro sem que os campos de senha e confirmação de senha correspondessem, reforçando a segurança.
+
+
